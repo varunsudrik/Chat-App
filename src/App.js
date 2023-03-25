@@ -1,13 +1,15 @@
 import "./App.css";
-import Register from ".//Pages/Register";
-import Login from ".//Pages/Login";
-import style from "./style.scss";
-import Home from "./Pages/Home";
+import { ChatEngine } from "react-chat-engine";
 
 function App() {
   return (
-    <div className="">
-      <Home />
+    <div className="App">
+      <ChatEngine
+        height="100vh"
+        projectID="aeb3e459-642e-4723-aaad-cadb23f5ac91"
+        userName="redgear204"
+        userSecret="Qwerty@123"
+      ></ChatEngine>
     </div>
   );
 }
