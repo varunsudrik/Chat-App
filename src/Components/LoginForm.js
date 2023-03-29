@@ -1,6 +1,5 @@
 import { useState } from "react";
 import axios from "axios";
-import App from "../App.css";
 
 const projectID = "aeb3e459-642e-4723-aaad-cadb23f5ac91";
 
