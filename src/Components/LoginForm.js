@@ -1,5 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
+import App from "../App.css";
 
 const projectID = "aeb3e459-642e-4723-aaad-cadb23f5ac91";
 
@@ -60,6 +61,11 @@ const LoginForm = () => {
           </div>
         </form>
         <h1>{error}</h1>
+      </div>
+      <div className="test-cred">
+        <h3>Test Credentials</h3>
+        <div>user:redgear204</div>
+        <div>pass:Qwerty@123</div>
       </div>
     </div>
   );

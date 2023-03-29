@@ -16,6 +16,7 @@ function App() {
         renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps} />}
         inNewMessege={() => new Audio("./assets/chat.mp3").play}
       ></ChatEngine>
+      <div></div>
     </div>
   );
 }
